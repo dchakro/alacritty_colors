@@ -38,9 +38,9 @@ The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.yml).
 
 ![image-20200730154203299](assets/material.png)
 
-## Monokai Soda      [YML](themes/monokaisoda.yml)
+## Monokai Soda      [YML](themes/monokaiSoda.yml)
 
-![image-20200730154326639](assets/monokaisoda.png)
+![image-20200730154326639](assets/monokaiSoda.png)
 
 ## Ubuntu      [YML](themes/ubuntu.yml)
 
