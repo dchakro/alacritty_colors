@@ -6,6 +6,14 @@ This repo contains snippets for color schemes to use with [alacritty](https://gi
 
 Also includes a handy bash script [`show_colors.sh`](./show_colors.sh) to print the colors.
 
+if you don’t want to clone this repo but still want to test the color scheme then you can run:
+
+```sh
+curl -sL 'https://raw.githubusercontent.com/robocopAlpha/alacritty_colors/master/show_colors.sh' | bash
+```
+
+
+
 **NB:** While making this repo I didn’t realize that there are repos like [eendroroy’s](https://github.com/eendroroy/alacritty-theme) where they have been putting in the effort for a long time to curate content. I will maintain this repo to archive other color schemes that I might find interesting over time and develop a way to apply color schemes from the CLI.
 
 
