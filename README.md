@@ -1,6 +1,20 @@
+[![alacritty rocks](https://img.shields.io/badge/alacritty-ROCKS-blueviolet.svg)](https://shields.io/)
+
+[![GitHub license](https://img.shields.io/github/license/robocopAlpha/alacritty_colors?color=Blue)](https://github.com/robocopAlpha/alacritty_colors/blob/master/LICENSE)
+
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/robocopAlpha/alacritty_colors/master.svg)](https://github.com/robocopAlpha/alacritty_colors/commits/master)
+
+[![GitHub issues](https://img.shields.io/github/issues/robocopAlpha/alacritty_colors.svg)](https://github.com/robocopAlpha/alacritty_colors/issues)
+
+[![GitHub stars](https://img.shields.io/github/stars/robocopAlpha/alacritty_colors)](https://github.com/robocopAlpha/alacritty_colors/stargazers)
+
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/robocopAlpha/alacritty_colors/pulls)
+
 # alacritty colors
 
-This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps).
+This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps). Most of these themes are (as-is or modified) from [alacritty's wiki](https://github.com/alacritty/alacritty/wiki/Color-schemes).
+
+**NB:** While making this repo I didn’t realize that there are repos like [eendroroy’s](https://github.com/eendroroy/alacritty-theme) where they have been putting in the effort for a long time to curate content.
 
 
 
@@ -213,25 +227,25 @@ colors:
 
   # Normal colors
   normal:
-    black:   '#000000'  # Arbitrary
+    black:   '#000000' 
     red:     '#e53935'
     green:   '#91b859'
     yellow:  '#ffb62c'
     blue:    '#6182b8'
-    magenta: '#ff5370'  # Dark pink of the original material theme
+    magenta: '#ff5370'
     cyan:    '#39adb5'
-    white:   '#a0a0a0'  # Arbitrary
+    white:   '#a0a0a0' 
 
   # Bright colors
   bright:
-    black:   '#4e4e4e'  # Arbitrary
+    black:   '#4e4e4e' 
     red:     '#ff5370'
     green:   '#c3e88d'
     yellow:  '#ffcb6b'
     blue:    '#82aaff'
-    magenta: '#f07178'  # Pink of the original material theme
+    magenta: '#f07178' 
     cyan:    '#89ddff'
-    white:   '#ffffff'  # Arbitrary
+    white:   '#ffffff'  
 ```
 
 ## Monokai Soda
