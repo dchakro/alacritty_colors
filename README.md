@@ -17,18 +17,33 @@ curl -sL 'https://raw.githubusercontent.com/robocopAlpha/alacritty_colors/master
 **NB:** While making this repo I didn’t realize that there are repos like [eendroroy’s](https://github.com/eendroroy/alacritty-theme) where they have been putting in the effort for a long time to curate content. I will maintain this repo to archive other color schemes that I might find interesting over time and develop a way to apply color schemes from the CLI.
 
 
-
-## robocopAlpha Colors     [YML](themes/robocopAlpha.yml)
-
-![image-20200730160014996](assets/robocopAlpha.png)
-
 ## [Argonaut](https://github.com/pwaleczek/Argonaut-theme)      [YML](themes/argonaut.yml)
 
 ![image-20200730153019490](assets/argonaut.png)
 
+## Ayu Mirage    [YML](themes/ayuMirage.yml)
+
+![image-20200730153019490](assets/ayuMirage.png)
+
 ## [Blood Moon](https://github.com/dguo/blood-moon)      [YML](themes/bloodmoon.yml)
 
 ![image-20200730153216611](assets/bloodmoon.png)
+
+## Breeze (KDE)    [YML](themes/breeze.yml)
+
+![image-20200730153019490](assets/breeze.png)
+
+## Darktooth    [YML](themes/darktooth.yml)
+
+![image-20200730153019490](assets/darktooth.png)
+
+## Dracula    [YML](themes/dracula.yml)
+
+![image-20200730153019490](assets/dracula.png)
+
+## Gruvbox    [YML](themes/gruvbox.yml)
+
+![image-20200730153019490](assets/gruvbox.png)
 
 ## [Hyper](https://hyper.is/)     [YML](themes/hyper.yml)
 
@@ -40,7 +55,9 @@ The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.yml).
 
 ![image-20200730154037517](assets/iterm2.png)
 
+## Kitty    [YML](themes/kitty.yml)
 
+![image-20200730153019490](assets/kitty.png)
 
 ## [Material Theme](https://github.com/equinusocio/material-theme)    [YML](themes/material.yml)
 
@@ -50,21 +67,13 @@ The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.yml).
 
 ![image-20200730154326639](assets/monokaiSoda.png)
 
-## Ubuntu      [YML](themes/ubuntu.yml)
-
-![image-20200730155325668](assets/ubuntu.png)
-
 ## Pop OS       [YML](themes/pop_OS.yml)
 
 ![image-20200730155432908](assets/pop_OS.png)
 
-## Spacemacs light     [YML](themes/spacemacsLight.yml)
+## robocopAlpha Colors     [YML](themes/robocopAlpha.yml)
 
-Changes: green to `#009F6B` and magenta to `#29A0AD`.
-
-![image-20200730160138239](assets/spacemacsLight.png)
-
-
+![image-20200730160014996](assets/robocopAlpha.png)
 
 ## [Seabird](https://github.com/nightsense/seabird)      [YML](themes/seabird.yml)
 
@@ -72,6 +81,16 @@ Foreground color has been made darker `#1A1A1A` than original to improve contras
 
 ![image-20200730154721260](assets/seabird.png)
 
+## Spacemacs light     [YML](themes/spacemacsLight.yml)
+
+Changes: green to `#009F6B` and magenta to `#29A0AD`.
+
+![image-20200730160138239](assets/spacemacsLight.png)
+
 ## Terminal app basic       [YML](themes/terminalBasic.yml)
 
 ![image-20200730155241817](assets/terminalBasic.png)
+
+## Ubuntu      [YML](themes/ubuntu.yml)
+
+![image-20200730155325668](assets/ubuntu.png)
