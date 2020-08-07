@@ -27,11 +27,19 @@ curl -sL 'https://raw.githubusercontent.com/robocopAlpha/alacritty_colors/master
 
 ## [Blood Moon](https://github.com/dguo/blood-moon)      [YML](themes/bloodmoon.yml)
 
+Bright yellow changed to `#FFD700`
+
 ![image-20200730153216611](assets/bloodmoon.png)
 
 ## Breeze (KDE)    [YML](themes/breeze.yml)
 
 ![image-20200730153019490](assets/breeze.png)
+
+## Breeze2     [YML](themes/breeze2.yml)
+
+modified from KDE Breeze by robocopAlpha
+
+![breeze2](./assets/breeze2.png)
 
 ## Darktooth    [YML](themes/darktooth.yml)
 
@@ -63,6 +71,10 @@ The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.yml).
 
 ![image-20200730154203299](assets/material.png)
 
+## Metro Style      [YML](./themes/metrostyle.yml)
+
+![metrostyle](assets/metrostyle.png)
+
 ## Monokai Soda      [YML](themes/monokaiSoda.yml)
 
 ![image-20200730154326639](assets/monokaiSoda.png)
@@ -87,6 +99,12 @@ Changes: green to `#009F6B` and magenta to `#29A0AD`.
 
 ![image-20200730160138239](assets/spacemacsLight.png)
 
+## Spacer by robocopAlpha    [YML](./themes/spacer.yml)
+
+Tried to map colors from the Spacemacs Light theme to ones “similar” to the names of the colors.
+
+![spacer](assets/spacer.png)
+
 ## Terminal app basic       [YML](themes/terminalBasic.yml)
 
 ![image-20200730155241817](assets/terminalBasic.png)
@@ -94,3 +112,4 @@ Changes: green to `#009F6B` and magenta to `#29A0AD`.
 ## Ubuntu      [YML](themes/ubuntu.yml)
 
 ![image-20200730155325668](assets/ubuntu.png)
+
