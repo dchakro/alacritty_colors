@@ -1,4 +1,4 @@
-[![alacritty rocks](https://img.shields.io/badge/alacritty-ROCKS-blueviolet.svg)](https://github.com/alacritty/alacritty) [![GitHub license](https://img.shields.io/github/license/robocopAlpha/alacritty_colors?color=Blue)](https://github.com/dchakro/alacritty_colors/blob/master/LICENSE) [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/robocopAlpha/alacritty_colors/master.svg)](https://github.com/dchakro/alacritty_colors/commits/master) [![GitHub stars](https://img.shields.io/github/stars/robocopAlpha/alacritty_colors)](https://github.com/dchakro/alacritty_colors/stargazers) [![GitHub issues](https://img.shields.io/github/issues/robocopAlpha/alacritty_colors.svg)](https://github.com/dchakro/alacritty_colors/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/dchakro/alacritty_colors/pulls)
+[![alacritty rocks](https://img.shields.io/badge/alacritty-ROCKS-blueviolet.svg)](https://github.com/alacritty/alacritty) [![GitHub license](https://img.shields.io/github/license/dchakro/alacritty_colors?color=Blue)](https://github.com/dchakro/alacritty_colors/blob/master/LICENSE) [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/dchakro/alacritty_colors/master.svg)](https://github.com/dchakro/alacritty_colors/commits/master) [![GitHub stars](https://img.shields.io/github/stars/dchakro/alacritty_colors)](https://github.com/dchakro/alacritty_colors/stargazers) [![GitHub issues](https://img.shields.io/github/issues/dchakro/alacritty_colors.svg)](https://github.com/dchakro/alacritty_colors/issues) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/dchakro/alacritty_colors/pulls)
 
 # alacritty colors
 
@@ -9,7 +9,7 @@ Also includes a handy bash script [`show_colors.sh`](./show_colors.sh) to print 
 if you don’t want to clone this repo but still want to test the color scheme then you can run:
 
 ```sh
-curl -sL 'https://raw.githubusercontent.com/robocopAlpha/alacritty_colors/master/show_colors.sh' | bash
+curl -sL 'https://raw.githubusercontent.com/dchakro/alacritty_colors/master/show_colors.sh' | bash
 ```
 
 
