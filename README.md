@@ -24,11 +24,12 @@ This repo contains snippets for color schemes to use with [alacritty](https://gi
 	```properties
 	live_config_reload: true
 	```
-
-Here is a shell command to do it.
 	
-	```sh
+	Here is a shell command to do it.
+	
+	```shell
 	echo "live_config_reload: true" >> ~/.alacritty.yml
+	```
 
 3. Overwrite the [base.yml](./base.yml) with your `~/.alacritty.yml`.
 
