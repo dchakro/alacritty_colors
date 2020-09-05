@@ -2,6 +2,13 @@
 
 # alacritty colors
 
+## Demo
+
+Here is a quick demo of the process of applying themes to alacritty.
+
+![demo.gif](assets/demo.gif)
+
+
 ## About
 This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps) and bash scripts to [apply themes](./apply_themes.sh) and [show the current theme's colors](./show_colors.sh). 
 
@@ -47,13 +54,6 @@ This repo contains snippets for color schemes to use with [alacritty](https://gi
    ./apply_theme.sh
    ```
 
-## Demo
-
-Here is a quick demo of the process of applying themes to alacritty.
-
-![demo.gif](assets/demo.gif)
-
-
 
 ## Info
 
@@ -66,8 +66,8 @@ curl -sL 'https://raw.githubusercontent.com/dchakro/alacritty_colors/master/show
 ## Note:
 
 + Most of these themes are (as-is or modified) from [alacritty's wiki](https://github.com/alacritty/alacritty/wiki/Color-schemes).
-+ + While making this repo I didn’t realize that there are repos like [eendroroy’s](https://github.com/eendroroy/alacritty-theme) and [rajasegar's](https://github.com/rajasegar/alacritty-themes) repos where they have been putting in the effort for a long time. I will maintain this repo to archive other color schemes that I might find interesting over time.
-	+ Unlike their repos this repo provides open-source simple bash scripts to view the theme colors and apply the themes.
++ While making this repo I didn’t realize that there are repos like [eendroroy’s](https://github.com/eendroroy/alacritty-theme) and [rajasegar's](https://github.com/rajasegar/alacritty-themes) repos where they have been putting in the effort for a long time. I will maintain this repo to archive other color schemes that I might find interesting over time.
+  + Unlike their repos this repo provides open-source simple bash scripts to view the theme colors and apply the themes.
 
 ## Preview of themes
 
