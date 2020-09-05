@@ -2,15 +2,14 @@
 
 # alacritty colors
 
+## About
+This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps) and bash scripts to [apply themes](./apply_themes.sh) and [show the current theme's colors](./show_colors.sh). 
+
 ## Demo
 
 Here is a quick demo of the process of applying themes to alacritty.
 
 ![demo.gif](assets/demo.gif)
-
-
-## About
-This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps) and bash scripts to [apply themes](./apply_themes.sh) and [show the current theme's colors](./show_colors.sh). 
 
 ## How to use
 
