@@ -1,6 +1,18 @@
 #!/usr/bin/env bash
 
-# Syntax of colors from https: //misc.flogisoft.com/bash/tip_colors_and_formatting
+# #<---------------------------->
+# # You must include this section when:
+# # Distributing, Using and/or Modifying this code.
+# # Please read and abide by the terms of the included LICENSE.
+# # Copyright 2020, Deepankar Chakroborty, All rights reserved.
+# #
+# #  Author : Deepankar Chakroborty (https://github.com/dchakro)
+# #  Report issues: https://github.com/dchakro/alacritty_colors/issues
+# #  License: https://github.com/dchakro/alacritty_colors/blob/master/LICENSE
+# #<---------------------------->
+
+# # Syntax of colors from https://misc.flogisoft.com/bash/tip_colors_and_formatting
+
 
 NC='\033[0m'
 
