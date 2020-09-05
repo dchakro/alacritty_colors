@@ -9,15 +9,16 @@ This repo contains snippets for color schemes to use with [alacritty](https://gi
 
 1. Clone the repo and give execute permissions to included scripts.
 
-  ```sh
-  # Latest version
-  git clone --depth 1 https://github.com/dchakro/alacritty_colors.git
-  # Full repo
-  git clone https://github.com/dchakro/alacritty_colors.git
-
-  cd alacritty_colors
-  chmod +x show_colors.sh apply_theme.sh
-  ```
+	```shell
+	# Latest version
+	git clone --depth 1 https://github.com/dchakro/alacritty_colors.git
+	
+	# or clone the complete repo
+	git clone https://github.com/dchakro/alacritty_colors.git
+	
+	cd alacritty_colors
+	chmod +x show_colors.sh apply_theme.sh
+	```
 
 2. Enable `Live Config Reload` for alacritty if it is not enabled already by adding the followin line in your `~/.alacritty.yml`.
 
