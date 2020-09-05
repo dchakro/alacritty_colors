@@ -3,7 +3,7 @@
 # alacritty colors
 
 ## About
-This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps) and a bash script to [apply themes](./apply_themes.sh) and [show the current theme's colors](./show_colors.sh). 
+This repo contains snippets for color schemes to use with [alacritty](https://github.com/alacritty/alacritty) terminal emulator (and other similar apps) and bash scripts to [apply themes](./apply_themes.sh) and [show the current theme's colors](./show_colors.sh). 
 
 ## How to use
 
