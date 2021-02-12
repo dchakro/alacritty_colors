@@ -24,7 +24,7 @@ window:
     y: 5
 
 scrolling:
- history: 1000
+ history: 10000
 
 # tabspaces: 4
 
@@ -52,10 +52,10 @@ font:
     # family: 'Iosevka Nerd Font Mono'
     style: Italic
     
-  size: 14.0
+  size: 16.0
   
   # Thin strokes = true on retina displays, Non-retina disp = false
-  use_thin_strokes: true
+  use_thin_strokes: false
 
 background_opacity: 1.0
 
