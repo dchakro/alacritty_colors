@@ -12,7 +12,7 @@ env:
 
 window:
   dimensions:
-    columns: 100
+    columns: 105
     lines: 26
   decorations: buttonless
     # decorations: full, none, transparent, buttonless
