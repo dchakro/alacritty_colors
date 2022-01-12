@@ -13,7 +13,7 @@ env:
 window:
   dimensions:
     columns: 105
-    lines: 26
+    lines: 30
   decorations: buttonless
     # decorations: full, none, transparent, buttonless
   
@@ -94,11 +94,10 @@ debug:
 alt_send_esc: false
 
 key_bindings:
-# - { key: T,        mods: Command, command: { program: "open", args: ["-n", "/Applications/Alacritty.app"] } }
-#  - { key: N,        mods: Command, action: SpawnNewInstance            }
-# - { key: N,        mods: Command, command: { program: "/usr/local/bin/tmux", args: ["new-session","-d","-s","test"] } }
-# - { key: N,        mods: Command, command: { program: "/usr/local/bin/tmux", args: ["new-session","-d"] } }
-# - { key: N,        mods: Command, action: SpawnNewInstance }
+#   - { key: T,        mods: Command, command: { program: "open", args: ["-n", "/Applications/Alacritty.app"] } }
+#   - { key: N,        mods: Command, command: { program: "/usr/local/bin/tmux", args: ["new-session","-d","-s","test"] } }
+#   - { key: N,        mods: Command, command: { program: "/usr/local/bin/tmux", args: ["new-session","-d"] } }
+#   - { key: N,        mods: Command, action: SpawnNewInstance }
   - { key: N,        mods: Command|Shift, command: { program: "/usr/local/bin/tmux", args: ["new-session","-d"] } }
   - { key: T,        mods: Command, command: { program: "/usr/local/bin/tmux", args: ["new-window"] } }
   - { key: V,        mods: Command, action: Paste                        }
