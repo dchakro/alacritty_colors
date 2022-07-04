@@ -57,7 +57,7 @@ font:
   # Thin strokes = true on retina displays, Non-retina disp = false
   use_thin_strokes: true
 
-background_opacity: 1.0
+window.opacity: 1.0
 
 cursor:
    # - ▇ Block
