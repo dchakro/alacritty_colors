@@ -1,0 +1,29 @@
+# Colors (ParaisoDark)
+# Source: https://gogh-co.github.io/Gogh/
+colors:
+  # Default colors
+  primary:
+    background: '#2f1e2e'
+    foreground: '#edeceb'
+
+  # Normal colors
+  normal:
+    black:   '#000000'
+    red:     '#ef6155'
+    green:   '#48b685'
+    yellow:  '#fec418'
+    blue:    '#06b6ef'
+    magenta: '#815ba4'
+    cyan:    '#5bc4bf'
+    white:   '#edeceb'
+
+  # Bright colors
+  bright:
+    black:   '#776e71'
+    red:     '#ef6155'
+    green:   '#48b685'
+    yellow:  '#fec418'
+    blue:    '#06b6ef'
+    magenta: '#815ba4'
+    cyan:    '#5bc4bf'
+    white:   '#fcfcfb'
