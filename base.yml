@@ -55,7 +55,7 @@ font:
   size: 14.0
   
   # Thin strokes = true on retina displays, Non-retina disp = false
-  use_thin_strokes: true
+  AppleFontSmoothing: true
 
 window.opacity: 1.0
 
