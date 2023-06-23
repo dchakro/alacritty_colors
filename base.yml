@@ -52,7 +52,7 @@ font:
     # family: 'Iosevka Nerd Font Mono'
     style: Italic
     
-  size: 14.0
+  size: 16.0
   
   # Thin strokes = true on retina displays, Non-retina disp = false
   AppleFontSmoothing: true
@@ -91,7 +91,7 @@ debug:
   print_events: false
   ref_test: false
 
-alt_send_esc: false
+window.option_as_alt: false
 
 key_bindings:
 # - { key: T,        mods: Command, command: { program: "open", args: ["-n", "/Applications/Alacritty.app"] } }
