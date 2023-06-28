@@ -77,6 +77,9 @@ curl -sL 'https://raw.githubusercontent.com/dchakro/alacritty_colors/master/show
 ### Ayu Mirage    [YML](themes/ayuMirage.yml)
 
 ![image-20200730153019490](assets/ayuMirage.png)
+### Birds of Paradise [YML](themes/birds_of_paradise.yml)
+
+![birds of paradise](assets/birds of paradise.png)
 
 ### [Blood Moon](https://github.com/dguo/blood-moon)      [YML](themes/bloodmoon.yml)
 
@@ -131,6 +134,12 @@ The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.yml).
 ### Monokai Soda      [YML](themes/monokaiSoda.yml)
 
 ![image-20200730154326639](assets/monokaiSoda.png)
+### Monokai Soda version 2 [YML](themes/monokaiSoda2.yml)
+Gray and white are changed from the base theme
+![monokaisoda2](assets/monokaiSoda2.png)
+### Paraiso Dark [YML](themes/paraisoDark.yml)
+
+![paraiso dark](assets/paraisoDark.png)
 
 ### Pop OS       [YML](themes/pop_OS.yml)
 
