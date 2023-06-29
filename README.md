@@ -105,6 +105,9 @@ modified from KDE Breeze by robocopAlpha
 
 ![image-20200730153019490](assets/dracula.png)
 
+### Github Light [YML](themes/githubLight.yml)
+![githubLight](assets/githubLight.png)
+
 ### Gruvbox    [YML](themes/gruvbox.yml)
 
 ![image-20200730153019490](assets/gruvbox.png)
@@ -137,9 +140,15 @@ The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.yml).
 ### Monokai Soda version 2 [YML](themes/monokaiSoda2.yml)
 Gray and white are changed from the base theme
 ![monokaisoda2](assets/monokaiSoda2.png)
+### PaperColor Light [YML](themes/paperColorLight.yml)
+![paper color light](assets/paperColorLight.png)
+
+
 ### Paraiso Dark [YML](themes/paraisoDark.yml)
 
 ![paraiso dark](assets/paraisoDark.png)
+### Pencil Light [YML](themes/pencilLight.yml)
+![pencil light](assets/pencilLight.png)
 
 ### Pop OS       [YML](themes/pop_OS.yml)
 
