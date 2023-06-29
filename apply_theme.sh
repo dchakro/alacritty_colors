@@ -12,8 +12,11 @@
 # #  License: https://github.com/dchakro/alacritty_colors/blob/master/LICENSE
 # #<---------------------------->
 
-# Make a theme list
+# Set the directory where this is installed:
+BASEDIR="${HOME}/scripts/alacritty_colors"
+cd ${BASEDIR}
 
+# Make a list of themes
 declare -a arrFiles
 cd themes
 for file in *.yml
