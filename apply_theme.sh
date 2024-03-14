@@ -19,7 +19,7 @@ cd ${BASEDIR}
 # Make a list of themes
 declare -a arrFiles
 cd themes
-for file in *.yml; do
+for file in *.toml; do
 	arrFiles=("${arrFiles[@]}" "$file")
 done
 cd ..
@@ -28,29 +28,29 @@ cd ..
 # If no config file is found in all the typical locations
 # then it defaults to "$CONFIG" for backwards compatibilty
 get_config() {
-	if [[ -f "$XDG_CONFIG_HOME/alacritty/alacritty.yml" ]]; then
-		echo "$XDG_CONFIG_HOME/alacritty/alacritty.yml"
-	elif [[ -f "$XDG_CONFIG_HOME/alacritty.yml" ]]; then
-		echo "$XDG_CONFIG_HOME/alacritty.yml"
-	elif [[ -f "$HOME/.config/alacritty/alacritty.yml" ]]; then
-		echo "$HOME/.config/alacritty/alacritty.yml"
+	if [[ -f "$XDG_CONFIG_HOME/alacritty/alacritty.toml" ]]; then
+		echo "$XDG_CONFIG_HOME/alacritty/alacritty.toml"
+	elif [[ -f "$XDG_CONFIG_HOME/alacritty.toml" ]]; then
+		echo "$XDG_CONFIG_HOME/alacritty.toml"
+	elif [[ -f "$HOME/.config/alacritty/alacritty.toml" ]]; then
+		echo "$HOME/.config/alacritty/alacritty.toml"
 	else
-		[[ -f "$HOME/.alacritty.yml" ]]
-		echo "$HOME/.alacritty.yml"
+		[[ -f "$HOME/.alacritty.toml" ]]
+		echo "$HOME/.alacritty.toml"
 	fi
 }
 
 CONFIG=$(get_config)
 
 RESET() {
-	# Copies ./base.yml
+	# Copies ./base.toml
 	echo ""
-	echo "This will overwrite or create $CONFIG with ./base.yml"
+	echo "This will overwrite or create $CONFIG with ./base.toml"
 	while true; do
 		read -p "Restore base config (y/N): " backup_choice1
 		case $backup_choice1 in
 		[Yy]*)
-			cp ./base.yml $CONFIG
+			cp ./base.toml $CONFIG
 			echo "Config reset to base!"
 			break
 			;;
@@ -67,20 +67,20 @@ RESET() {
 }
 
 BACKUP() {
-	# Backs up "$CONFIG" as ~/.alacritty.bak.yml
+	# Backs up "$CONFIG" as ~/.alacritty.bak.toml
 	if [ ! -f "$CONFIG" ]; then
 		echo 'No config file found!'
 		RESET
 	fi
 
-	if [ ! -f ~/.alacritty.bak.yml ]; then
-		cp $CONFIG ~/.alacritty.bak.yml && echo "Config backup successful!"
+	if [ ! -f ~/.alacritty.bak.toml ]; then
+		cp $CONFIG ~/.alacritty.bak.toml && echo "Config backup successful!"
 	else
 		while true; do
 			read -p "Backup exists. Overwrite? (y/N): " backup_choice2
 			case $backup_choice2 in
 			[Yy]*)
-				cp "$CONFIG" ~/.alacritty.bak.yml && echo "Backup overwrite successful!"
+				cp "$CONFIG" ~/.alacritty.bak.toml && echo "Backup overwrite successful!"
 				break
 				;;
 			[Nn]*)
@@ -96,8 +96,8 @@ BACKUP() {
 }
 
 RESTORE() {
-	if [ -f ~/.alacritty.bak.yml ]; then
-		cp -f ~/.alacritty.bak.yml $CONFIG && echo "Config restored!"
+	if [ -f ~/.alacritty.bak.toml ]; then
+		cp -f ~/.alacritty.bak.toml $CONFIG && echo "Config restored!"
 	else
 		echo "Backup config for alacritty does not exist!!"
 		exit 1
@@ -124,7 +124,7 @@ APPLY_THEMES() {
 	echo ""
 	echo "Applying the theme: ${arrFiles[inp]}"
 
-	cat ./base.yml ./themes/${arrFiles[inp]} >|"$CONFIG"
+	cat ./base.toml ./themes/${arrFiles[inp]} >|"$CONFIG"
 	bash ./show_colors.sh
 
 	while true; do
