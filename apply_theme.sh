@@ -19,7 +19,7 @@ cd ${BASEDIR}
 # Make a list of themes
 declare -a arrFiles
 cd themes
-for file in *.yml
+for file in *.toml
 do
     arrFiles=("${arrFiles[@]}" "$file")
 done
@@ -28,14 +28,14 @@ cd ..
 
 RESET()
 {
-# Copies ./base.yml -> ~/.alacritty.yml
+# Copies ./base.toml -> ~/.alacritty.toml
 echo ""
-echo 'This will overwrite your ~/.alacritty.yml with ./base.yml'
+echo 'This will overwrite your ~/.alacritty.toml with ./base.toml'
 while true; do
 		read -p "Restore base config (y/N): " backup_choice1
 		case $backup_choice1 in
 	       	[Yy]* )  
-	       		cp ./base.yml ~/.alacritty.yml && echo "Config reset to base!"
+	       		cp ./base.toml ~/.alacritty.toml && echo "Config reset to base!"
 	       		break 
 	       		;;
 	       	[Nn]* )  
@@ -51,20 +51,20 @@ while true; do
 
 BACKUP()
 {
-# Backs up ~/.alacritty.yml as ~/.alacritty.bak.yml
-if [ ! -f ~/.alacritty.yml ] ; then
-	echo '~/.alacritty.yml does not exist!'
+# Backs up ~/.alacritty.toml as ~/.alacritty.bak.toml
+if [ ! -f ~/.alacritty.toml ] ; then
+	echo '~/.alacritty.toml does not exist!'
 	RESET
 fi
 
-if [ ! -f ~/.alacritty.bak.yml ] ; then
-	cp ~/.alacritty.yml ~/.alacritty.bak.yml && echo "Config backup successful!"
+if [ ! -f ~/.alacritty.bak.toml ] ; then
+	cp ~/.alacritty.toml ~/.alacritty.bak.toml && echo "Config backup successful!"
 else
 	while true; do
 		read -p "Backup exists. Overwrite? (y/N): " backup_choice2
 	    case $backup_choice2 in
 	       	[Yy]* )  
-	       		cp ~/.alacritty.yml ~/.alacritty.bak.yml && echo "Backup overwrite successful!"
+	       		cp ~/.alacritty.toml ~/.alacritty.bak.toml && echo "Backup overwrite successful!"
 	       		break 
 	       		;;
 	       	[Nn]* )  
@@ -80,8 +80,8 @@ fi
 
 RESTORE()
 {
-if [ -f ~/.alacritty.bak.yml ] ; then
-   cp -f ~/.alacritty.bak.yml ~/.alacritty.yml && echo "Config restored!"   
+if [ -f ~/.alacritty.bak.toml ] ; then
+   cp -f ~/.alacritty.bak.toml ~/.alacritty.toml && echo "Config restored!"   
 else
 	echo "Backup config for alacritty does not exist!!"
 	exit 1
@@ -112,7 +112,7 @@ inp=$((inp-1)) # as array indices start from 0
 echo ""
 echo "Applying the theme: ${arrFiles[inp]}"
 
-cat ./base.yml ./themes/${arrFiles[inp]} >| ~/.alacritty.yml
+cat ./base.toml ./themes/${arrFiles[inp]} >| ~/.alacritty.toml
 bash ./show_colors.sh
 
 while true; do
@@ -143,7 +143,7 @@ do
 	
 	printf ' -- Apply alacritty themes -- 
 	1) Apply Themes
-	2) Backup .alacritty.yml
+	2) Backup .alacritty.toml
 	3) Restore the backup
 	4) Reset config (no defined color scheme)
 	5) Exit
