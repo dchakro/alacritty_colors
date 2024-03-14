@@ -1,0 +1,191 @@
+live_config_reload = true
+# "window.dynamic_title" = false
+# "window.opacity" = 1.0
+# "window.option_as_alt" = false
+
+[bell]
+animation = "EaseOutQuint"
+color = "0xF44C8D"
+duration = 10
+
+[cursor]
+style = "Underline"
+thickness = 0.15
+unfocused_hollow = true
+
+[debug]
+log_level = "Warn"
+persistent_logging = false
+print_events = false
+# ref_test = false
+render_timer = false
+
+[env]
+TERM = "xterm-256color"
+
+[font]
+# AppleFontSmoothing = true
+# Thinstrokes = true
+size = 16.0
+
+[font.bold]
+family = "Iosevka Term"
+style = "Bold"
+
+[font.italic]
+family = "Iosevka Term"
+style = "Italic"
+
+[font.normal]
+family = "Iosevka Term"
+style = "Regular"
+
+[[keyboard.bindings]]
+key = "T"
+mods = "Command"
+
+[keyboard.bindings.command]
+program = "/opt/homebrew/bin/Alacritty"
+
+[[keyboard.bindings]]
+action = "Paste"
+key = "V"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Copy"
+key = "C"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "Quit"
+key = "W"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001B[3~"
+key = "Delete"
+
+[[keyboard.bindings]]
+chars = "©"
+key = "Key1"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "@"
+key = "Key2"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "£"
+key = "Key3"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "$"
+key = "Key4"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "∞"
+key = "Key5"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "§"
+key = "Key6"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "|"
+key = "Key7"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "["
+key = "Key8"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "]"
+key = "Key9"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "≈"
+key = "Key0"
+mods = "Alt"
+
+# [[keyboard.bindings]]
+# chars = "~"
+# key = "Grave"
+# mods = "Alt"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "ResetFontSize"
+key = "Key0"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "IncreaseFontSize"
+key = "Equals"
+mods = "Command"
+
+[[keyboard.bindings]]
+action = "DecreaseFontSize"
+key = "Minus"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001Bb"
+key = "Left"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001Bf"
+key = "Right"
+mods = "Alt"
+
+[[keyboard.bindings]]
+chars = "\u001BOH"
+key = "Left"
+mode = "AppCursor"
+mods = "Command"
+
+[[keyboard.bindings]]
+chars = "\u001BOF"
+key = "Right"
+mode = "AppCursor"
+mods = "Command"
+
+[mouse]
+hide_when_typing = false
+
+# [mouse.double_click]
+# threshold = 300
+
+# [mouse.triple_click]
+# threshold = 300
+
+[scrolling]
+history = 1000
+
+[selection]
+save_to_clipboard = false
+
+[window]
+decorations = "buttonless"
+startup_mode = "Windowed"
+
+[window.dimensions]
+columns = 100
+lines = 26
+
+[window.padding]
+x = 10
+y = 5
