@@ -20,7 +20,7 @@ if command -v yj > /dev/null 2>&1; then
 	# For each .yaml file in the current directory
 	for yaml_file in *.yml; do
 	    # Use basename to get the file name without the .yaml extension
-	    base_name=$(basename "$yaml_file" .yaml)
+	    base_name=$(basename "$yaml_file" .yml)
 
 	    # Convert .yaml to .toml using yj
 	    cat "$yaml_file" | yj -yt > "${base_name}.toml"
