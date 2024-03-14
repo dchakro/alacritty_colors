@@ -4,9 +4,9 @@
 # # You must include this section when:
 # # Distributing, Using and/or Modifying this code.
 # # Please read and abide by the terms of the included LICENSE.
-# # Copyright 2020, Deepankar Chakroborty, All rights reserved.
+# # Copyright 2024, Deepankar Chakroborty, All rights reserved.
 # #
-# #  Version : 0.1
+# #  Version : 0.2
 # #  Author : Deepankar Chakroborty (https://github.com/dchakro)
 # #  Report issues: https://github.com/dchakro/alacritty_colors/issues
 # #  License: https://github.com/dchakro/alacritty_colors/blob/master/LICENSE
