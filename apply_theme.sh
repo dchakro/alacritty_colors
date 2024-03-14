@@ -6,7 +6,7 @@
 # # Please read and abide by the terms of the included LICENSE.
 # # Copyright 2024, Deepankar Chakroborty, All rights reserved.
 # #
-# #  Version : 0.2
+# #  Version : 0.3
 # #  Author : Deepankar Chakroborty (https://github.com/dchakro)
 # #  Report issues: https://github.com/dchakro/alacritty_colors/issues
 # #  License: https://github.com/dchakro/alacritty_colors/blob/master/LICENSE
