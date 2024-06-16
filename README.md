@@ -94,8 +94,15 @@ modified from KDE Breeze by robocopAlpha
 
 ![image-20200730153019490](assets/dracula.png)
 
-### Github Light | [toml](themes/githubLight.toml)
+### [Flexoki Dark](https://github.com/kepano/flexoki/blob/main/alacritty/flexoki-dark.yaml)  |  [toml](themes/flexoki-dark.toml)
+
+![image-20200730153019490](assets/flexoki-dark.png)
+
+### Github Light 1 | [toml](themes/githubLight.toml)
 ![githubLight](assets/githubLight.png)
+
+### [Github Light 2](https://github.com/projekt0n/github-theme-contrib/blob/main/themes/alacritty/github_light.yml) | [toml](themes/github_light2.toml)
+![githubLight](assets/github_light2.png)
 
 ### Gruvbox  |   [toml](themes/gruvbox.toml)
 
@@ -146,9 +153,18 @@ Gray and white are changed from the base theme
 
 ![image-20200730155432908](assets/pop_OS.png)
 
+### [Remedy-Dark](https://github.com/alacritty/alacritty-theme/blob/master/themes/remedy_dark.toml)   |  [toml](themes/remedy_dark.toml)
+
+![image-20200730160014996](assets/remedy_dark.png)
+
+
 ### robocopAlpha Colors   |  [toml](themes/robocopAlpha.toml)
 
 ![image-20200730160014996](assets/robocopAlpha.png)
+
+### [Rose Pine Dawn]()   |    [toml](themes/rose-pine-dawn.toml)
+
+![image-20200730155432908](assets/rose-pine-dawn.png)
 
 ### [Seabird](https://github.com/nightsense/seabird)   |   [toml](themes/seabird.toml)
 
