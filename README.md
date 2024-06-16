@@ -58,117 +58,126 @@ curl -sL 'https://raw.githubusercontent.com/dchakro/alacritty_colors/master/show
 
 ## Preview of themes
 
-### [Argonaut](https://github.com/pwaleczek/Argonaut-theme)      [toml](themes/argonaut.toml)
+### [Argonaut](https://github.com/pwaleczek/Argonaut-theme)   |   [toml](themes/argonaut.toml)
 
 ![image-20200730153019490](assets/argonaut.png)
 
-### Ayu Mirage    [toml](themes/ayuMirage.toml)
+### Ayu Mirage  |  [toml](themes/ayuMirage.toml)
 
 ![image-20200730153019490](assets/ayuMirage.png)
-### Birds of Paradise [toml](themes/birds_of_paradise.toml)
 
-![birds of paradise](assets/birds of paradise.png)
+### Birds of Paradise |  [toml](themes/birds_of_paradise.toml)
 
-### [Blood Moon](https://github.com/dguo/blood-moon)      [toml](themes/bloodmoon.toml)
+![birds of paradise](assets/birds_of_paradise.png)
+
+### [Blood Moon](https://github.com/dguo/blood-moon)   |   [toml](themes/bloodmoon.toml)
 
 Bright yellow changed to `#FFD700`
 
 ![image-20200730153216611](assets/bloodmoon.png)
 
-### Breeze (KDE)    [toml](themes/breeze.toml)
+### Breeze (KDE)  |  [toml](themes/breeze.toml)
 
 ![image-20200730153019490](assets/breeze.png)
 
-### Breeze2     [toml](themes/breeze2.toml)
+### Breeze2   |  [toml](themes/breeze2.toml)
 
 modified from KDE Breeze by robocopAlpha
 
 ![breeze2](./assets/breeze2.png)
 
-### Darktooth    [toml](themes/darktooth.toml)
+### Darktooth  |  [toml](themes/darktooth.toml)
 
 ![image-20200730153019490](assets/darktooth.png)
 
-### Dracula    [toml](themes/dracula.toml)
+### Dracula  |  [toml](themes/dracula.toml)
 
 ![image-20200730153019490](assets/dracula.png)
 
-### Github Light [toml](themes/githubLight.toml)
+### Github Light | [toml](themes/githubLight.toml)
 ![githubLight](assets/githubLight.png)
 
-### Gruvbox    [toml](themes/gruvbox.toml)
+### Gruvbox  |   [toml](themes/gruvbox.toml)
 
 ![image-20200730153019490](assets/gruvbox.png)
 
-### [Hyper](https://hyper.is/)     [toml](themes/hyper.toml)
+### [Hyper](https://hyper.is/)   |  [toml](themes/hyper.toml)
 
 The color Yellow `#FFD700` has taken from [Blood Moon](themes/bloodmoon.toml).
 
 ![image-20200730153904592](assets/hyper.png)
 
-### Iterm Default    [toml](themes/iterm2.toml)
+### Iterm Default  |  [toml](themes/iterm2.toml)
 
 ![image-20200730154037517](assets/iterm2.png)
 
-### Kitty    [toml](themes/kitty.toml)
+### Kitty  |   [toml](themes/kitty.toml)
 
 ![image-20200730153019490](assets/kitty.png)
 
-### [Material Theme](https://github.com/equinusocio/material-theme)    [toml](themes/material.toml)
+### [Material Theme](https://github.com/equinusocio/material-theme)  |  [toml](themes/material.toml)
 
 ![image-20200730154203299](assets/material.png)
 
-### Metro Style      [toml](./themes/metrostyle.toml)
+### Metro Style   |   [toml](./themes/metrostyle.toml)
 
 ![metrostyle](assets/metrostyle.png)
 
-### Monokai Soda      [toml](themes/monokaiSoda.toml)
+### Monokai Soda  |   [toml](themes/monokaiSoda.toml)
 
 ![image-20200730154326639](assets/monokaiSoda.png)
-### Monokai Soda version 2 [toml](themes/monokaiSoda2.toml)
+
+### Monokai Soda version 2 | [toml](themes/monokaiSoda2.toml)
 Gray and white are changed from the base theme
 ![monokaisoda2](assets/monokaiSoda2.png)
-### PaperColor Light [toml](themes/paperColorLight.toml)
+
+### PaperColor Light | [toml](themes/paperColorLight.toml)
 ![paper color light](assets/paperColorLight.png)
 
 
-### Paraiso Dark [toml](themes/paraisoDark.toml)
+### Paraiso Dark | [toml](themes/paraisoDark.toml)
 
 ![paraiso dark](assets/paraisoDark.png)
-### Pencil Light [toml](themes/pencilLight.toml)
+
+### Pencil Light | [toml](themes/pencilLight.toml)
 ![pencil light](assets/pencilLight.png)
 
-### Pop OS       [toml](themes/pop_OS.toml)
+### Pop OS   |    [toml](themes/pop_OS.toml)
 
 ![image-20200730155432908](assets/pop_OS.png)
 
-### robocopAlpha Colors     [toml](themes/robocopAlpha.toml)
+### robocopAlpha Colors   |  [toml](themes/robocopAlpha.toml)
 
 ![image-20200730160014996](assets/robocopAlpha.png)
 
-### [Seabird](https://github.com/nightsense/seabird)      [toml](themes/seabird.toml)
+### [Seabird](https://github.com/nightsense/seabird)   |   [toml](themes/seabird.toml)
 
 Foreground color has been made darker `#1A1A1A` than original to improve contrast
 
 ![image-20200730154721260](assets/seabird.png)
 
-### Spacemacs light     [toml](themes/spacemacsLight.toml)
+### Spacemacs light  |   [toml](themes/spacemacsLight.toml)
 
 Changes: green to `#009F6B` and magenta to `#29A0AD`.
 
 ![image-20200730160138239](assets/spacemacsLight.png)
 
-### Spacer by robocopAlpha    [toml](./themes/spacer.toml)
+### Spacer by robocopAlpha   |   [toml](./themes/spacer.toml)
 
 Tried to map colors from the Spacemacs Light theme to ones “similar” to the names of the colors.
 
 ![spacer](assets/spacer.png)
 
-### Terminal app basic       [toml](themes/terminalBasic.toml)
+### Tender   |  [toml](themes/tender.toml)
+Converted to TOML from:
+
+![image-20200730155241817](assets/tender.png)
+
+### Terminal app basic    |   [toml](themes/terminalBasic.toml)
 
 ![image-20200730155241817](assets/terminalBasic.png)
 
-### Ubuntu      [toml](themes/ubuntu.toml)
+### Ubuntu   |    [toml](themes/ubuntu.toml)
 
 ![image-20200730155325668](assets/ubuntu.png)
 
