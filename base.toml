@@ -1,4 +1,4 @@
-live_config_reload = true
+general.live_config_reload = true
 # "window.dynamic_title" = false
 # "window.opacity" = 1.0
 # "window.option_as_alt" = false
